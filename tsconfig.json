@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "ES6",
+        "module": "ES2020",
+        "strict": true,
+        "strictFunctionTypes": false,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "jsx": "react",
+        "jsxFactory": "Snabbdom.createElement",
+        "resolveJsonModule": true,
+        "moduleResolution": "Node",
+        "lib": [
+            "ES2020",
+            "DOM"
+        ]
+    },
+    "exclude": [ "node_modules", "build" ]
+}
