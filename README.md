@@ -1,6 +1,6 @@
 # YAKML (Yet Another KIT Moodle Links)
 
-**非公式**京都工芸繊維大学Moodle負荷軽減支援サイト
+**非公式**京都工芸繊維大学Moodle負荷軽減支援サイト  
 コード・挙動共に大幅に変化する可能性があります
 
 ## 実装済み
