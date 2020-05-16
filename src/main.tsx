@@ -94,5 +94,5 @@ console.log(String.raw`%c
                             Yet Another KIT Moodle Links
 
 Welcome to YAKML console! This site is made of typescript, cycle.js, xstream, and emotion.
-If you are interested in development, please visit https://github.com/shouth !
+If you are interested in development, please visit https://github.com/shouth/yakml !
 `,"color: #1e90ff")
