@@ -48,21 +48,9 @@ function main(sources: Sources): Sinks {
         className={`container ${css({
             maxWidth: "800px",
             margin: "auto",
-            height: `${window.innerHeight}px`,
-            display: "flex",
-            flexFlow: "column"
         })}`}>
-            <div className={`${css({
-                flex: "0 1"
-            })}`}>
-                { searchField }
-            </div>
-            <div className={`${css({
-                overflowY: "scroll",
-                flex: "1 1 auto"
-            })}`}>
-                { moodleLinkList }
-            </div>
+            { searchField }
+            { moodleLinkList }
         </div>
     )
 

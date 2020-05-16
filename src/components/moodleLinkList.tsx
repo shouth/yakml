@@ -52,7 +52,7 @@ function treeToDOM(node: CategoryNode, category: string[] = []): VNode[] {
         const categoryName = css({
             display: "block",
             position: "sticky",
-            top: "0px",
+            top: "50px",
             borderBottom: "solid 2px #555",
             margin: "10px 0 0",
             backgroundColor: "#fff",

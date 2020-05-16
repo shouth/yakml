@@ -34,17 +34,27 @@ export function SearchField(sources: Sources): Sinks {
     const searchFieldContainer = css({
         display: "flex",
         alignItems: "center",
-        margin: "10px",
-        boxSizing: "border-box"
+        boxSizing: "border-box",
+        height: "50px",
+        margin: "auto 10px",
+        position: "fixed",
+        top: "0px",
+        zIndex: 9999,
+        width: "100%",
+        maxWidth: "800px",
+        backgroundColor: "#fff",
     })
 
     const vdom$ = subject$.map(e =>
-        <div className={`${searchFieldContainer}`}>
-            <input
-                className={`search ${searchField}`}
-                type="text"
-                value={ e }
-                placeholder="検索" />
+        <div>
+            <div className={`${searchFieldContainer}`}>
+                <input
+                    className={`search ${searchField}`}
+                    type="text"
+                    value={ e }
+                    placeholder="検索" />
+            </div>
+            <div className={`${css({ height: "50px" })}`}></div>
         </div>
     )
 
