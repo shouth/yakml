@@ -7,7 +7,6 @@ module.exports = {
     output: {
         path: `${__dirname}/build`,
         filename: "app.bundle.[hash].js",
-        publicPath: "/yakml/"
     },
     module: {
         rules: [
